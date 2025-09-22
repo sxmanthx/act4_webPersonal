@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi Pagina Personal - Samantha López</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color: #dfe2f0; 
+                color: #333; 
+                margin: 0;
+                padding: 0;
+            }
+            h1, h2{
+                color: #b30059;
+                text-align: center;
+            }
+            header{
+                background-color: rgba(169, 175, 178, 0.904);
+                color: black;
+                text-align: center;
+                padding: 20px;
+            }
+            header h1{
+                color: #cf2a7db8;
+            }
+            nav ul{
+                list-style: none;
+                padding: 0;
+            }
+            nav ul li{
+                display: inline;
+            }
+            nav ul li a{
+                color: #3e172b;
+                text-decoration: none;
+                font-weight: bold;
+                margin: 0 17px;
+            }
+            nav ul li a:hover{
+                color: #ff66b2;
+            }
+            section, article, aside{
+                background-color: #ffffff;
+                padding: 20px;
+                margin: 20px auto;
+                border-radius: 15px;
+                max-width: 900px;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* sombra suave */
+                transition: transform 0.3s, box-shadow 0.3s; /* animación al pasar el mouse */
+            }
+            section:hover, article:hover{
+                transform: translateY(-5px); /* hace efecto de levantar la sección seleccionada con el cursor */
+                box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            }
+            aside{
+                background-color: rgb(206, 217, 228);
+                border-left: 4px solid #c0ace2bc;
+                
+            }
+            p{
+                max-width: 800px;
+                margin: 10px auto;
+                text-align: justify;
+            }
+            img{
+                border-radius: 12px;
+                margin: 10px;
+                box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+            }
+            table{
+                margin: 20px auto;
+                border-collapse: collapse;
+                width: 60%;
+            }
+            table, td{
+                border: 1px solid #b30059;
+                padding: 10px;
+                text-align: center;
+            }
+            th{
+                background-color: #f19dc7af;
+            }
+            footer{
+                text-align: center;
+                padding: 20px;
+                background: #cfc1c6;
+                margin-top: 30px;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <!--Encabezados-->
+            <h1 id="contacto">Mi Pagina Personal</h1>
+            <nav>
+                <center>
+                <ul>
+                    <!--Enlaces-->
+                    <li><a href="#datos">Datos</a></li>
+                    <li><a href="#video">Video favorito</a></li>
+                    <li><a href="#album">Album favorito</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#fav">Favoritos</a></li>
+                    <li><a href="#fam">Familia</a></li>
+                </ul>
+                </center>
+            </nav>
+        </header>
+        <br>
+        <main>
+            <!--Parrafos-->
+            <section>
+                <h2 id="datos">Sobre mi:</h2>
+                <p>
+                    Mi nombre es Samantha Jacqueline López García, tengo 18 años, naci el 24 de diciembre del 2006.
+                    tengo dos hermanos, uno mayor y uno menor, por lo tanto soy la de en medio, vivo con ellos y mis papás.
+                    <br>
+                    Considero que soy una persona organizada, responsable, amable y siempre busco mejorar 
+                    en lo que puedo para ser una mejor versión de lo que puedo lograr. 
+                    <br>
+                    Me gusta y siempre estoy abierta en <b>aprender cosas nuevas</b>, <i>conocer más del diseño web</i> 
+                    y poder llegar a <u>trabajar en proyectos creativos</u> que sean beneficiosos y abarquen los 
+                    conocimientos que logré adquirir de la carrera que estoy estudiando en la universidad,
+                    estoy cursando la licenciatura en Entornos Virtuales y Negocios Ditales.
+                    <br>
+                    <br>
+                    Mi época favorita del año es y siempre será la navidad. Me gusta mucho cuando toda la familia se reune,
+                    cuando cantamos los villancicos, las posadas, el amor en familia y los buenos deseos que cada año se dan.
+                    Aparte de que el invierno es la mejor época del año para mí, es algo muy significativo. No importa cuánto
+                    me este muriendo del frío, siempre amaré el invierno, me recuerda a cuando era pequeña, trae consigo recuerdos muy lindos
+                    y en los que tambien era demasiado feliz, no digo que ahora no lo sea, pero la nostalgia de querer regresar a esos
+                    momentos y valorarlos más los tengo siempre presentes.
+                    <br>
+                    <br>
+                    Y por último, pero no menos importante, haciendo mención a mis cantantes favoritos que me hacen feliz y los que más escucho todo el tiempo son:
+                    <b>Harry Styles, Louis Tomlinson y Taylor Swift <3 </b>
+                </p>
+
+                <!--Imagenes-->
+                <center>
+                <img src="img/Harry.jpg" alt="Harry Styles" width="250">
+                <img src="img/Louis.jpg" alt="Louis Tomlinson" width="250">
+                <img src="img/Taylor.jpg" alt="Taylor Swift" width="250">
+                </center>
+            </section>
+
+            <article>
+                <!--Elemento embetido-->
+                <h2 id="video">Este video, aparte de ser mi canción favorita, el ambiente lo hace aún mejor</h2>
+                <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_HZM0QiuUS8?si=LqQVlKK1DbdFxQIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <br>
+                <h2 id="album">Este es uno de mis álbumes favoritos:</h2>
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/2RMzjdvRjr9gd2XgS5PnEn?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </center>
+            </article>
+
+            <aside>
+                <!--Lista desordenada-->
+                <h2 id="hobbies">Mis hobbies favoritos son:</h2>
+                <ul>
+                    <li>Escuchar musica.</li>
+                    <li>Leer libros.</li>
+                    <li>Ver series y peliculas.</li>
+                    <li>Hacer ejercicio cada que tengo tiempo.</li>
+                    <li>Ir al cine con familiares, amigos y mi novio.</li>
+                </ul>
+
+                <h2 id="fav">Mis cosas favoritas</h2>
+                <ul>
+                    <li>Animales: Perritos y gatitos.</li>
+                    <li>Cosa: La Luna.</li>
+                    <li>Serie: Friends.</li>
+                    <li>Película: Grease.</li>
+                    <li>Ambiente: Noche.</li>
+                    <li>Deporte: Básquetbol y patinaje en hielo.</li>
+                    <li>Gestos: Abrazos.</li>
+                    <li>Detalles: Cartas hechas a mano.</li>
+                    <li>Flores: Todas pero en especial girasoles y tulipanes.</li>
+                    <li>Musica: Pop en inglés</li>
+                    <li>Helado: Chicle.</li>
+                    <li>Comida: Sopa de arroz y papas.</li>
+                    <li>Postre:Pastel de tres leches de vainilla.</li>
+                    <li>Dulce: Kinder Bueno.</li>
+                </ul>
+
+            </aside>
+
+            <section>
+                <!--Tabla-->
+                <h2 id="fam">Los integrantes de mi familia son:</h2>
+                <table border="1">
+                <tr>
+                    <th>Papás</th>
+                    <th>Hermanos</th>
+                </tr>
+                <tr>
+                    <td>Santiago López</td>
+                    <td>Daniel López</td>
+                </tr>
+                <tr>
+                    <td>Chelo García</td>
+                    <td>Rodrigo López</td>
+                </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p> &copy; 2025 Samantha López Página personal | Contacto: samanthajlg8@gmail.com </p>
+        </footer>
+    </body>
+</html>
